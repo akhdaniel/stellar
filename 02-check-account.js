@@ -6,7 +6,11 @@ npm install --save stellar-sdk
 *********************************************************/
 var StellarSdk = require('stellar-sdk');
 
-var pair = StellarSdk.Keypair.fromSecret('SB6UKQRDWY6WDYWIE7SAI22GPSWKJ4ZMO54CCBYZB635LSMD43G4ZF4F');
+//account1
+//var pair = StellarSdk.Keypair.fromSecret('SB6UKQRDWY6WDYWIE7SAI22GPSWKJ4ZMO54CCBYZB635LSMD43G4ZF4F');
+
+//account2
+var pair = StellarSdk.Keypair.fromSecret('SBB44VJVZP62VIF2Z53LGKWT7QRJITN4WI2THN632JOOTRAOVOFDMFEI');
 
 //display the key pair
 secret = pair.secret();
