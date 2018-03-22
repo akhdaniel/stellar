@@ -1,5 +1,5 @@
-# stellar
-stellar network test scripts
+# Stellar javascript SDK test scripts
+Stellar network test scripts
 
 # 1. Install stellar SDK
 
