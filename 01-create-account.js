@@ -5,9 +5,11 @@ steps:
 npm install --save stellar-sdk
 *********************************************************/
 var StellarSdk = require('stellar-sdk');
-var pair = StellarSdk.Keypair.random();
 
 // generate secret key and public key
+var pair = StellarSdk.Keypair.random();
+
+//display the key pair
 secret = pair.secret();
 console.log("secret: "+secret);
 public= pair.publicKey();
