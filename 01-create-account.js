@@ -11,8 +11,8 @@ var pair = StellarSdk.Keypair.random();
 
 //display the key pair
 secret = pair.secret();
+public = pair.publicKey();
 console.log("secret: "+secret);
-public= pair.publicKey();
 console.log("public: "+public);
 
 
