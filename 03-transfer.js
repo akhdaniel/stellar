@@ -33,7 +33,7 @@ server.loadAccount(destinationId)
       }))
       // A memo allows you to add your own metadata to a transaction. It's
       // optional and does not affect how Stellar treats the transaction.
-      .addMemo(StellarSdk.Memo.text('Test Transaction'))
+      .addMemo(StellarSdk.Memo.text('S843249,Bank BCA,445896830,Susanto Widyo'))
       .build();
     // Sign the transaction to prove you are actually the person sending it.
     transaction.sign(sourceKeys);
